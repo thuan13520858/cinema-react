@@ -1,0 +1,10 @@
+.sidebarNav {
+    width: 240px;
+    background-color: #162c50;
+    position: fixed;
+    height: 100vh;
+}
+
+:global(.sidebarNavCollapsed) {
+    width: 80px;
+}

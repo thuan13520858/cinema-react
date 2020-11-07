@@ -1,0 +1,29 @@
+.navBranch {
+    font-size: 18px;
+    :global .nav-area {
+        padding: 20px 10px;
+        .nav__link {
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            i {
+                margin-right: 15px;
+            }
+        }
+        &:hover {
+            background-color: #0f1f38;
+            .nav__link {
+                color: white;
+            }
+        }
+    }
+    :global .collapsed {
+        text-align: center;
+    }
+    :global .nav-area.active {
+        background-color: #0f1f38;
+        .nav__link {
+            color: white;
+        }
+    }
+}

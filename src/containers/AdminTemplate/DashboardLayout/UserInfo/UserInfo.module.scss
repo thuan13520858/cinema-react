@@ -1,0 +1,12 @@
+.userInfo {
+    text-align: center;
+    border-bottom: 1px solid white;
+    img {
+        filter: invert(1);
+        max-width: 50px;
+    }
+    :global .user-name {
+        color: white;
+        font-size: 18px;
+    }
+}
